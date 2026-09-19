@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec bea1b946-9073-43bf-b1f6-e0f7024a8583 __f5d79bbb-bab7-4189-9208-5fd6c62d46b5, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(__f5d79bbb-bab7-4189-9208-5fd6c62d46b5), Some(CommandSource(network-10)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing sbt/exec"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"10","parents":[]},"eventTime":1789834941332,"message":"Compiling torneo-twenty-one","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/ruben/Documents/GitHub/practica-scala/parte3/parte3-1-vscode/torneo-twenty-one/#torneo-twenty-one/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"10","parents":[]},"eventTime":1789834941360,"message":"Compiled torneo-twenty-one","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/ruben/Documents/GitHub/practica-scala/parte3/parte3-1-vscode/torneo-twenty-one/#torneo-twenty-one/Compile"},"errors":0,"warnings":0,"time":28,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/clientJob, {"runInfo":{"jvm":true,"jvmRunInfo":{"args":[],"classpath":[{"path":"file:///C:/Users/ruben/Documents/GitHub/practica-scala/parte3/parte3-1-vscode/torneo-twenty-one/target/bg-jobs/sbt_917c06cc/job-4/target/23bc4f24/60a2c6a3/torneo-twenty-one_2.12-0.1.0-SNAPSHOT.jar","digest":""},{"path":"file:///C:/Users/ruben/Documents/GitHub/practica-scala/parte3/parte3-1-vscode/torneo-twenty-one/target/bg-jobs/sbt_917c06cc/target/3e4c9591/cebdc36c/scala-library-2.12.21.jar","digest":""}],"mainClass":"Main","connectInput":true,"javaHome":"file:///C:/Users/ruben/AppData/Local/Coursier/cache/arc/https/github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%25252B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip/jdk-21.0.12.1+1","workingDirectory":"file:///C:/Users/ruben/Documents/GitHub/practica-scala/parte3/parte3-1-vscode/torneo-twenty-one","jvmOptions":[],"environmentVariables":{},"inputs":[],"outputs":[]},"windowTitle":"sbt run: default % torneo-twenty-one % 0.1.0-SNAPSHOT"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtCompleteExec bea1b946-9073-43bf-b1f6-e0f7024a8583, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult bea1b946-9073-43bf-b1f6-e0f7024a8583, Some(bea1b946-9073-43bf-b1f6-e0f7024a8583), Some(CommandSource(network-10)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing sbt/exec"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])[0m

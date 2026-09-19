@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "C:\\Users\\ruben\\AppData\\Local\\Coursier\\data\\bin\\.scala-cli.aux.exe",
+    "bsp",
+    "--json-options",
+    "C:\\Users\\ruben\\Documents\\GitHub\\practica-scala\\parte1\\vscode\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "C:\\Users\\ruben\\Documents\\GitHub\\practica-scala\\parte1\\vscode\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "C:\\Users\\ruben\\Documents\\GitHub\\practica-scala\\parte1\\vscode\\.scala-build\\ide-envs.json",
+    "C:\\Users\\ruben\\Documents\\GitHub\\practica-scala\\parte1\\vscode"
+  ],
+  "version": "1.17.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
